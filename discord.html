@@ -688,8 +688,9 @@
           <p class="section-subtitle">Subscribe Newsletter</p>
 
           <h2 class="h2 section-title">Get Every Latest News</h2>
+          <!-- <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfnmHM4BHfBxs6-XX6unj8aFkEaXRyB5OdX2qVu_N8rKWvHVQ/viewform?embedded=true" width="640" height="555" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
 
-          <form action="" class="newsletter-form" name="submit-to-google-sheet">
+          <form action="https://formsubmit.co/your@email.com" method="POST" class="newsletter-form" name="submit-to-google-sheet">
 
             <div class="input-wrapper">
               <input type="email" name="email_address email" aria-label="email" placeholder="Enter your mail address" required
@@ -712,19 +713,7 @@
     </article>
     <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
 
-    
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbzQjBAdxLbyRnavCgtezCxrzeaPyfRzwVNJbK8PyxS6jC6evCwxSizJq2u9RkaaUqnwjw/exec'
-      const form = document.forms['submit-to-google-sheet']
-    
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
-          .catch(error => console.error('Error!', error.message))
-      })
-    </script>
-    
+  
   </main>
 
 
