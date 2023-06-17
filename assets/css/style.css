@@ -475,6 +475,21 @@ body {
   max-width: max-content;
   margin-inline: auto;
 }
+.hero-banner2 {
+  max-width: max-content;
+  margin-inline: auto;
+}
+
+@media (max-width: 480px) {
+  #hero-banner {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  #hero-banner2 {
+    display: none;
+  }
+}
 
 
 
@@ -1223,6 +1238,11 @@ body {
   }
 
   .hero-banner {
+    position: relative;
+    padding-inline-end: 50px;
+    margin-block-start: 180px;
+  }
+  .hero-banner2 {
     position: relative;
     padding-inline-end: 50px;
     margin-block-start: 180px;

@@ -2,6 +2,14 @@
 <html lang="en">
 
 <head>
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T3QRJLF');</script>
+  <!-- End Google Tag Manager -->
+
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,9 +71,18 @@
   <link rel="preload" as="image" href="./assets/images/hero-abs-1.png" media="min-width(768px)">
   <link rel="preload" as="image" href="./assets/images/hero-abs-2.png" media="min-width(768px)">
 
+  <style>
+    
+  </style>
+
 </head>
 
 <body id="top">
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3QRJLF"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
   <!-- 
     - #HEADER
@@ -75,7 +92,7 @@
     <div class="container">
 
       <h1>
-        <a href="#" class="logo">XCLUCLUB UNIVERSITY</a>
+        <a href="index.html" class="logo">XCLUCLUB UNIVERSITY</a>
       </h1>
 
       <nav class="navbar" data-navbar>
@@ -104,7 +121,7 @@
             <a href="about.html" class="block py-2 pl-3 pr-4 text-white bg-purple-700 rounded lg:bg-transparent lg:text-purple-700 lg:p-0 dark:text-white " data-nav-toggler aria-current="page">Our Team</a>
         </li>
         <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+            <a href="about.html#contact" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
         </li>
         <li>
           <a href="xclu-app.html" class="block py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 lg:hover:bg-transparent lg:border-0 lg:hover:text-purple-700 lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700">The App</a>
@@ -199,17 +216,17 @@
             </a> -->
           </div>
 
-          <figure class="hero-banner">
+          <figure class="hero-banner2" id="hero-banner2">
 
-            <img src="./assets/images/hero-banner.png" width="500" height="500" loading="lazy" alt="hero image"
-              class="w-100">
-
-            <img src="./assets/images/hero-abs-1.png" width="318" height="352" loading="lazy" aria-hidden="true"
+            <img src="./assets/images/instruct1.png" width="450" height="590" loading="lazy" alt="about banner"
+              class="w-100 about-img" sty>
+          
+            <img src="./assets/images/inst2.png" width="188" height="242" loading="lazy" aria-hidden="true"
               class="abs-img abs-img-1">
-
-            <img src="./assets/images/hero-abs-2.png" width="160" height="160" loading="lazy" aria-hidden="true"
+          
+            <img src="./assets/images/inst3.png" width="170" height="230" loading="lazy" aria-hidden="true"
               class="abs-img abs-img-2">
-
+          
           </figure>
 
 
@@ -223,20 +240,15 @@
       <section class="section about" id="about" aria-label="about">
         <div class="container">
 
-          <!-- <figure class="about-banner">
+          <figure class="about-banner">
 
-            <img src="./assets/images/about-banner.jpg" width="450" height="590" loading="lazy" alt="about banner"
+            <img src="./assets/images/instructw.png" width="450" height="590" loading="lazy" alt="about banner"
               class="w-100 about-img">
 
-            <img src="./assets/images/about-abs-1.jpg" width="188" height="242" loading="lazy" aria-hidden="true"
-              class="abs-img abs-img-1">
 
-            <img src="./assets/images/about-abs-2.jpg" width="150" height="200" loading="lazy" aria-hidden="true"
-              class="abs-img abs-img-2">
+          </figure>
 
-          </figure> -->
-
-          <div class="about-content">
+          <div class="about-conten" id="instructor">
 
             <p class="section-subtitle">Meet your instructor</p>
 
@@ -246,15 +258,16 @@
 
               <li class="about-item">
 
-                <div class="item-icon item-icon-1">
+                <!-- <div class="item-icon item-icon-1">
                   <img src="./assets/images/about-icon-1.png" width="30" height="30" loading="lazy" aria-hidden="true">
-                </div>
+                </div> -->
 
                 <div>
-                  <h3 class="h3 item-title">Industry Expert Instructor</h3>
+                  <h3 class="h3 item-title">Where we started</h3>
 
                   <p class="item-text">
-                    Our university is using all the tips we discovered after working with dozens of content creators through the last 5 years.
+                    Our story begins with a group of passionate marketers who recognized the need for a specialized agency dedicated to content creators. We saw a void in the market and decided to fill it. We wanted to create a marketing agency tailored to the unique needs of content creators, an agency that could help them increase their income and achieve their goals.
+                    Over the years, we've worked with dozens of content creators, helping them develop and execute marketing strategies that have taken their business to the next level. We have seen the incredible impact our work can have on a business, and are committed to continuing to deliver exceptional results for our clients.
                   </p>
                 </div>
 
@@ -262,35 +275,21 @@
 
               <li class="about-item">
 
-                <div class="item-icon item-icon-2">
+                <!-- <div class="item-icon item-icon-2">
                   <img src="./assets/images/about-icon-2.png" width="30" height="30" loading="lazy" aria-hidden="true">
-                </div>
+                </div> -->
 
                 <div>
-                  <h3 class="h3 item-title">Up-to-Date Course Content</h3>
+                  <h3 class="h3 item-title">What We Do</h3>
 
                   <p class="item-text">
-                    In a constently changing world, having the right information at the right time is crucial, that is what we offer.
+                    In our agency we consider that creativity is at the heart of every successful campaign. Our team is dedicated to crafting unique and captivating strategies that capture the essence of your brand and connect with your audience.
+                    We understand that, as a content creator, growing your revenue is critical to your success. That's why we've made it our mission to help you achieve amazing results. We specialize in working with content creators like you, and we've seen firsthand the impact that a campaign well-executed marketing can have on your business.
                   </p>
                 </div>
 
               </li>
 
-              <li class="about-item">
-
-                <div class="item-icon item-icon-3">
-                  <img src="./assets/images/about-icon-3.png" width="30" height="30" loading="lazy" aria-hidden="true">
-                </div>
-
-                <div>
-                  <h3 class="h3 item-title">Biggest Student Community</h3>
-
-                  <p class="item-text">
-                    By joining the Xcluclub University, you will not only have access to all the content we have but also to our community of content creators motivated to thrive just like you.
-                  </p>
-                </div>
-
-              </li>
 
             </ul>
 
@@ -305,504 +304,30 @@
         </div>
       </section>
 
-
-
-
-
-      <!-- 
-        - #COURSE
-      -->
-
-      <!-- <section class="section course" id="courses" aria-label="course"
-        style="background-image: url('./assets/images/course-bg.jpg')">
-        <div class="container">
-
-          <p class="section-subtitle">Our Masterclasses</p>
-
-          <h2 class="h2 section-title">Our Popular Courses</h2>
-
-          <ul class="grid-list">
-
-            <li>
-              <div class="course-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/course-1.jpg" width="370" height="270" loading="lazy"
-                    alt="Competitive Strategy law for all students" class="img-cover">
-                </figure>
-
-                <div class="card-actions">
-
-                  <span class="badge">Beginner</span>
-
-                  <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
-                    <ion-icon name="heart"></ion-icon>
-                  </button>
-
-                </div>
-
-                <div class="card-content">
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="card-meta-text">35 Lessons</span>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                      <time datetime="PT18H15M44S" class="card-meta-text">11h 15m 44s</time>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Empowered Entrepreneur: Running Your Online Business</a>
-                  </h3>
-
-                  <div class="rating-wrapper">
-
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
-                    <span class="rating-text">(4 Reviews)</span>
-
-                  </div>
-
-                  <div class="card-footer">
-
-                    <div class="card-price">
-                      <span class="span">INCLUDED</span>
-
-                      <del class="del">$439.00</del>
-                    </div>
-
-                    <div class="card-meta-item">
-                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="card-meta-text">7 Students</span>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="course-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/course-2.jpg" width="370" height="270" loading="lazy"
-                    alt="Machine Learning A-Z: Hands-On Python and java" class="img-cover">
-                </figure>
-
-                <div class="card-actions">
-
-                  <span class="badge">Advanced</span>
-
-                  <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
-                    <ion-icon name="heart"></ion-icon>
-                  </button>
-
-                </div>
-
-                <div class="card-content">
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="card-meta-text">28 Lessons</span>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                      <time datetime="PT18H15M44S" class="card-meta-text">8h 15m 44s</time>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Content Queen: Mastering Explicit Content Creation</a>
-                  </h3>
-
-                  <div class="rating-wrapper">
-
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
-                    <span class="rating-text">(18 Review)</span>
-
-                  </div>
-
-                  <div class="card-footer">
-
-                    <div class="card-price">
-                      <span class="span">INCLUDED</span>
-
-                      <del class="del">$439.00</del>
-                    </div>
-
-                    <div class="card-meta-item">
-                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="card-meta-text">7 Students</span>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="course-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/course-3.jpg" width="370" height="270" loading="lazy"
-                    alt="Achieving Advanced in Insights with Big" class="img-cover">
-                </figure>
-
-                <div class="card-actions">
-
-                  <span class="badge">Basic</span>
-
-                  <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
-                    <ion-icon name="heart"></ion-icon>
-                  </button>
-
-                </div>
-
-                <div class="card-content">
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="card-meta-text">40 Lessons</span>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                      <time datetime="PT18H15M44S" class="card-meta-text">8h 15m 44s</time>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Bold & Beautiful: Building Your Brand in the Online Adult Entertainment</a>
-                  </h3>
-
-                  <div class="rating-wrapper">
-
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
-                    <span class="rating-text">(2 Review)</span>
-
-                  </div>
-
-                  <div class="card-footer">
-
-                    <div class="card-price">
-                      <span class="span">INCLUDED</span>
-
-                      <del class="del">$469.00</del>
-                    </div>
-
-                    <div class="card-meta-item">
-                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="card-meta-text">2 Students</span>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="course-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/course-4.jpg" width="370" height="270" loading="lazy"
-                    alt="Education Makes A Person A Responsible Citizen" class="img-cover">
-                </figure>
-
-                <div class="card-actions">
-
-                  <span class="badge">Intermediate</span>
-
-                  <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
-                    <ion-icon name="heart"></ion-icon>
-                  </button>
-
-                </div>
-
-                <div class="card-content">
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="card-meta-text">21 Lessons</span>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                      <time datetime="PT18H15M44S" class="card-meta-text">4h 15m 44s</time>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Viewer Velocity: Understanding and Engaging Your Audience</a>
-                  </h3>
-
-                  <div class="rating-wrapper">
-
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
-                    <span class="rating-text">(4 Review)</span>
-
-                  </div>
-
-                  <div class="card-footer">
-
-                    <div class="card-price">
-                      <span class="span">INCLUDED</span>
-
-                      <del class="del">$459.00</del>
-                    </div>
-
-                    <div class="card-meta-item">
-                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="card-meta-text">6 Students</span>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="course-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/course-5.jpg" width="370" height="270" loading="lazy"
-                    alt="Building A Better World One Student At A Time" class="img-cover">
-                </figure>
-
-                <div class="card-actions">
-
-                  <span class="badge">Advanced</span>
-
-                  <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
-                    <ion-icon name="heart"></ion-icon>
-                  </button>
-
-                </div>
-
-                <div class="card-content">
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="card-meta-text">36 Lessons</span>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                      <time datetime="PT18H15M44S" class="card-meta-text">18h 15m 44s</time>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Cashing In Creativity: Innovative Strategies for Adult Content</a>
-                  </h3>
-
-                  <div class="rating-wrapper">
-
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
-                    <span class="rating-text">(18 Review)</span>
-
-                  </div>
-
-                  <div class="card-footer">
-
-                    <div class="card-price">
-                      <span class="span">INCLUDED</span>
-
-                      <del class="del">$639.00</del>
-                    </div>
-
-                    <div class="card-meta-item">
-                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="card-meta-text">11 Students</span>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="course-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/course-6.jpg" width="370" height="270" loading="lazy"
-                    alt="Education is About Forming Faithful Disciples" class="img-cover">
-                </figure>
-
-                <div class="card-actions">
-
-                  <span class="badge">Basic</span>
-
-                  <button class="whishlist-btn" aria-label="Add to whishlist" data-whish-btn>
-                    <ion-icon name="heart"></ion-icon>
-                  </button>
-
-                </div>
-
-                <div class="card-content">
-
-                  <ul class="card-meta-list">
-
-                    <li class="card-meta-item">
-                      <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="card-meta-text">21 Lessons</span>
-                    </li>
-
-                    <li class="card-meta-item">
-                      <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                      <time datetime="PT18H15M44S" class="card-meta-text">8h 15m 44s</time>
-                    </li>
-
-                  </ul>
-
-                  <h3 class="h3">
-                    <a href="#" class="card-title">Secrets of Success: Scaling Your Online Content Business and your revenues</a>
-                  </h3>
-
-                  <div class="rating-wrapper">
-
-                    <div class="rating">
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                      <ion-icon name="star"></ion-icon>
-                    </div>
-
-                    <span class="rating-text">(8 Review)</span>
-
-                  </div>
-
-                  <div class="card-footer">
-
-                    <div class="card-price">
-                      <span class="span">INCLUDED</span>
-
-                      <del class="del">$589.00</del>
-                    </div>
-
-                    <div class="card-meta-item">
-                      <ion-icon name="people-outline" aria-hidden="true"></ion-icon>
-
-                      <span class="card-meta-text">12 Students</span>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <a href="#subscribe" class="btn btn-primary">
-            <span class="span">Join the Waiting List!</span>
-
-            <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-          </a>
-
-        </div>
-      </section> -->
-
       <!-- 
         - #NEWSLETTER
       -->
 
-      <section class="section newsletter" aria-label="newsletter">
-      <div class="container">
+      <section id="contact" class="section newsletter" aria-label="newsletter" style="padding: 0;">
+        <br>
+        <div class="container" style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%;">
     
-        <p class="section-subtitle">Want to know something?</p>
+            <p class="section-subtitle">Want to know something?</p>
+            <br>
     
-        <a href="mailto:xcluclub@gmail.com?subject=Message from Xcluclub">
-          <h2 class="h2 section-title" style="color:blue; cursor:pointer; text-decoration:underline;">Send me a message!</h2>
-        </a>
+            <div class="header-actions section-subtitle">
+              <a href="mailto:xcluclub@gmail.com?subject=Message about Xcluclub" class=" login-btn">
+                <ion-icon name="person-outline" aria-hidden="false"></ion-icon>
+                <span class="span">Send me a message!</span>
+              </a>
+            </div>
+        </div>
+        <br>
     </section>
     </article>
 
-    <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+    
 
-    
-    
   </main>
 
 
@@ -830,7 +355,7 @@
 
           <ul class="social-list">
 
-            <li>
+            <!-- <li>
               <a href="#" class="social-link">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
@@ -846,13 +371,13 @@
               <a href="#" class="social-link">
                 <ion-icon name="logo-linkedin"></ion-icon>
               </a>
-            </li>
+            </li> -->
 
-            <li>
+            <!-- <li>
               <a href="#" class="social-link">
                 <ion-icon name="logo-pinterest"></ion-icon>
               </a>
-            </li>
+            </li> -->
 
           </ul>
 
@@ -871,41 +396,16 @@
               <span class="span">About Us</span>
             </a>
           </li>
-
           <!-- <li>
-            <a href="#" class="footer-link">
-              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
-
-              <span class="span">Upcoming Events</span>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="footer-link">
-              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
-
-              <span class="span">Blog & News</span>
-            </a>
-          </li> -->
-
-          <!-- <li>
-            <a href="#" class="footer-link">
-              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
-
-              <span class="span">FAQ Question</span>
-            </a>
-          </li> -->
-
-          <li>
             <a href="#" class="footer-link">
               <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
 
               <span class="span">Testimonial</span>
             </a>
-          </li>
+          </li> -->
 
           <li>
-            <a href="#" class="footer-link">
+            <a href="./other-pages/privacy.html" class="footer-link">
               <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
 
               <span class="span">Privacy Policy</span>
@@ -921,7 +421,7 @@
           </li>
 
           <li>
-            <a href="about.html" class="footer-link">
+            <a href="about.html#contact" class="footer-link">
               <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
 
               <span class="span">Contact Us</span>
@@ -929,7 +429,7 @@
           </li>
 
           <li>
-            <a href="#pricing" class="footer-link">
+            <a href="index.html#pricing" class="footer-link">
               <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
 
               <span class="span">Pricing Plan</span>
@@ -937,36 +437,12 @@
           </li>
 
           <li>
-            <a href="about.html/#instructor" class="footer-link">
+            <a href="about.html#instructor" class="footer-link">
               <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
 
               <span class="span">Instructor Profile</span>
             </a>
           </li>
-
-          <!-- <li>
-            <a href="#faq" class="footer-link">
-              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
-
-              <span class="span">FAQ</span>
-            </a>
-          </li> -->
-
-          <!-- <li>
-            <a href="#" class="footer-link">
-              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
-
-              <span class="span">Popular Courses</span>
-            </a>
-          </li> -->
-
-          <!-- <li>
-            <a href="#" class="footer-link">
-              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
-
-              <span class="span">Terms & Conditions</span>
-            </a>
-          </li> -->
 
         </ul>
 
@@ -980,11 +456,11 @@
             <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
 
             <address class="footer-link">
-              800 Rue du Square-Victoria Montréal, QC H4Z 1A1
+              153 - 800 Rue du Square-Victoria Montréal, QC H4Z 1A1
             </address>
           </li>
 
-          <li class="footer-item">
+          <!-- <li class="footer-item">
             <ion-icon name="call" aria-hidden="true"></ion-icon>
 
             <a href="tel:+13647657839" class="footer-link">+ 1 (364) 765-7839</a>
@@ -994,7 +470,7 @@
             <ion-icon name="call" aria-hidden="true"></ion-icon>
 
             <a href="tel:+13647657840" class="footer-link">+ 1 (364) 765-7840</a>
-          </li>
+          </li> -->
 
           <li class="footer-item">
             <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
@@ -1014,6 +490,7 @@
 
     </div>
   </footer>
+
 
 
 
@@ -1043,5 +520,48 @@
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
+<style>
+	.box2 {
+		border: 1px solid var(--gray-800);
+		border-radius: 0.75rem;
+		padding: 1.5rem;
+		background-color: var(--gray-999_40);
+		box-shadow: var(--shadow-sm);
+	}
+
+	.skills {
+		display: flex;
+		flex-direction: column;
+		gap: 3rem;
+	}
+
+	.skills h2 {
+		font-size: var(--text-lg);
+	}
+
+	.skills p {
+		color: var(--gray-400);
+	}
+
+	@media (min-width: 50em) {
+		.box2 {
+			border-radius: 1.5rem;
+			padding: 2.5rem;
+		}
+
+		.skills {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 5rem;
+		}
+
+		.skills h2 {
+			font-size: var(--text-2xl);
+		}
+	}
+
+</style>
+
 
 </html>
