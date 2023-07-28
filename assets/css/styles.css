@@ -11215,3 +11215,14 @@ footer a:hover, footer a:active, footer a:focus {
   --ionicon-stroke-width: 40px;
 }
 input { width: 100%; }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.grid-item img {
+  width: 100%;
+  height: auto;
+}

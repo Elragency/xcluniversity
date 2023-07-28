@@ -1411,6 +1411,10 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 60px;
   }
+  .about1 .container {
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+  }
 
   .about-banner { margin-inline-start: -30px; }
 
@@ -1573,3 +1577,43 @@ body {
     justify-content: left;
   }
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+
+.grid-item img {
+  width: 300px;
+  height: 300px;
+  height: auto;
+}
+
+
+/* LOCKED CARD */
+.locked {
+  opacity: 0.5; /* Makes the card appear "grayed out" or "locked" */
+  pointer-events: none; /* Disables clicking on the card */
+}
+
+.coming-soon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1;
+  background: rgba(0,0,0,0.5); /* semi-transparent background */
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.card-banner {
+  position: relative;
+}
+
+
