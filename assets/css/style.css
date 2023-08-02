@@ -232,6 +232,10 @@ body {
   border-radius: var(--radius-6);
   transition: var(--transition-1);
 }
+.btn2:hover {
+  background: #ff96ad;
+  box-shadow: 0 0 5px #ff96ad, 0 0 25px #ff96ad, 0 0 50px #ff96ad, 0 0 200px #ff96ad;
+}
 
 .btn-primary {
   background-color: var(--ultramarine-blue);
