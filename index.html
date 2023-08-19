@@ -211,143 +211,27 @@
         - #HERO
       -->
 
-      <section class="hero" id="home" aria-label="hero" style="background-image: url('./assets/images/hero-bg.jpg')">
+      <section class="hero float-in-on-load" id="home" aria-label="hero" style="background-image: url('./assets/images/hero-bg.jpg')">
         <div class="container">
 
           <div class="hero-content">
 
             <p class="section-subtitle">Sharing the knowledge</p>
 
-            <h2 class="h1 hero-title">Education Is The Key To Scale Your Business</h2>
+            <h2 class="h1 hero-title"><span class="highlight-bubble">Education</span> Is The Key To Scale <span class="highlight-bubble">Your Business</span></h2>
 
             <p class="hero-text" id="subscribe">
-              Develop your online presence, scale your revenues and learn how to master the art of selling your content at the right price and to the right client.
+              Don't just survive in the digital world; thrive. We're here to guide content creators, like you, to capture a vast audience and turn them into paying customers.
               <div id="mc_embed_signup">
                 <div class="container">    
-        <!-- <form action="https://api.smtprelay.co/contact/add?version=2" data-id="hZiuhGJAqi" method="post" id="ewf_subscriptionForm_hZiuhGJAqi" class="validate newsletter-form" target="_self">
-    
-          <div style="display:none;">
-            <input type="hidden" name="publiclistid" id="IxZzvrku" value="292dea3c-1e4e-4727-ad2f-a0c7af034567" checked="checked">
-          </div>
-    
-          <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_49a9c7e7cad281af0ae68f7fc_69d0291072" tabindex="-1" value=""></div>
-          
-    
-          <input type="hidden" name="publicaccountid" value="c8245627-fc91-46e6-9088-bc294091a43f">
-          <input type="hidden" name="returnUrl" value="">
-          <input type="hidden" name="activationReturnUrl" value="">
-          <input type="hidden" name="alreadyactiveurl" value="">
-          <input type="hidden" name="activationTemplate" value="">
-          <input type="hidden" name="source" value="WebForm">
-          <input type="hidden" name="verifyemail" value="false" id="ewf_verifyEmails">
-          <input type="hidden" id="ewf_captcha" name="captcha" value="false">
-          <input type="hidden" name="sendActivation" value="false">
-          <input type="hidden" name="notifyEmail" value="">
-        </form> -->
       </div>
-                <form action="https://api.smtprelay.co/contact/add?version=2" data-id="hZiuhGJAqi" method="post" id="ewf_subscriptionForm_hZiuhGJAqi" class="validate newsletter-form" target="_self">
-                  <div class="input-wrapper">
-                  </div>
-            
-                  <div style="display:none;">
-                    <input type="hidden" name="publiclistid" id="IxZzvrku" value="292dea3c-1e4e-4727-ad2f-a0c7af034567" checked="checked">
-                  </div>
-                  
-                  <style type="text/css"> 
-                    .input-group{
-                      background-color: white; 
-                      border: 2px solid #e0e0e0; /* A softer gray color */
-                      border-radius: 5px; /* Round the corners */
-                      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Add a subtle shadow */
-                      padding: 10px; /* Some internal spacing */
-                    }
-                    .input-group input {
-                      border: none; /* Remove default border */
-                      width: 100%; /* Take up full width of .input-group */
-                      box-sizing: border-box; /* Make padding and border part of element's total width and height */
-                      padding: 5px; /* Some internal spacing */
-                    }
-                </style>
-                    <div id="mc_embed_signup">
-                      <h2 class="section-subtitle">Join the waiting list!</h2>
-                      <label for="mce-EMAIL">Email Address </label>
-                      <div class="input-group">
-                        <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" required>
-                        <span id="mce-EMAIL-HELPERTEXT" class="helper_text"></span>
-                      </div>
-                      <br>
-                    <div id="mce-responses" class="clear foot">
-                      <div class="response" id="mce-error-response" style="display:none"></div>
-                      <div class="response" id="mce-success-response" style="display:none"></div>
-                    </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_49a9c7e7cad281af0ae68f7fc_69d0291072" tabindex="-1" value=""></div>
-                    <div class="optionalParent">
-                      <div class="clear foot">
-                        <a href="#" >
-                          <input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary"></a>
-                          <input type="hidden" name="publicaccountid" value="c8245627-fc91-46e6-9088-bc294091a43f">
-                          <input type="hidden" name="returnUrl" value="">
-                          <input type="hidden" name="activationReturnUrl" value="">
-                          <input type="hidden" name="alreadyactiveurl" value="">
-                          <input type="hidden" name="activationTemplate" value="">
-                          <input type="hidden" name="source" value="WebForm">
-                          <input type="hidden" name="verifyemail" value="false" id="ewf_verifyEmails">
-                          <input type="hidden" id="ewf_captcha" name="captcha" value="false">
-                          <input type="hidden" name="sendActivation" value="false">
-                          <input type="hidden" name="notifyEmail" value="">
-                        </div>
-                      </div>
-                    </div>
-                  </form>
+      <a href="#pricing">
+        <button name="subscribe" id="mc-embedded-subscribe" class="button btn btn-primary">Join Now!</button>
+    </a>
+
+
                 </div>
-                <!--End mc_embed_signup-->
             </p>
-
-            
-            <!-- Include jQuery from a CDN -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-            
-            <!-- Add your custom script -->
-            <script>
-              $(document).ready(function() {
-                // Capture form submit event
-                $('#mc-embedded-subscribe-form').on('submit', function(e) {
-                  // Prevent the form from being submitted normally
-                  e.preventDefault();
-            
-                  // Get the email address from the form
-                  var emailAddress = $('#mce-EMAIL').val();
-            
-                  // Send the email address to Elasticmail
-                  $.ajax({
-                    url: 'https://api.smtprelay.co/contact/add?version=2',
-                    method: 'POST',
-                    data: {
-                      email: emailAddress,
-                      publicaccountid: 'c8245627-fc91-46e6-9088-bc294091a43f',
-                      publiclistid: '292dea3c-1e4e-4727-ad2f-a0c7af034567',
-                      source: 'WebForm',
-                      verifyemail: 'false',
-                      sendActivation: 'false'
-                    },
-                    success: function() {
-                      // Show success message (customize as necessary)
-                      alert('You have successfully subscribed!');
-                    },
-                    error: function() {
-                      // Show error message (customize as necessary)
-                      alert('An error occurred. Please try again.');
-                    }
-                  });
-                });
-              });
-            </script>
-
-            <!-- <a href="#" class="btn btn-primary">
-              <span class="span">Get Started Today</span>
-
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </a> -->
           </div>
 
           <figure class="hero-banner">
@@ -365,13 +249,53 @@
 
 
       </section>
-      <br>
+      <div class="features-banner" style="background-image: url('./assets/images/hero-bg.jpg')">
+        <div class="feature">
+            <img src="./assets/images/featuretime.png" loading="lazy" width="32" alt="Immediate Access Icon">
+            <p>Immediate access</p>
+        </div>
+        <div class="feature">
+            <img src="./assets/images/featuremonth.png" loading="lazy" width="32" alt="Monthly Subscription Icon">
+            <p>Monthly subscription</p>
+        </div>
+        <div class="feature">
+            <img src="./assets/images/featuresafe.png" loading="lazy" width="32" alt="Secure Payment Icon">
+            <p>Secure payment</p>
+        </div>
+        <div class="feature">
+            <img src="./assets/images/featurelock.png" loading="lazy" width="32" alt="No Contract Icon">
+            <p>No contract</p>
+        </div>
+    </div>
+    <!-- End of New Features Banner -->
+</div>
+</section>
+      <br> <br>
+              <!-- New Features Banner -->
+
 
       <!-- 
         - #ABOUT
       -->
 
       <section class="section about" id="about" aria-label="about">
+        <script>
+          document.addEventListener('DOMContentLoaded', function() {
+              const aboutSection = document.getElementById('about');
+              let animated = false;
+          
+              window.addEventListener('scroll', function() {
+                  if (!animated) {
+                      const rect = aboutSection.getBoundingClientRect();
+                      const viewHeight = Math.max(document.documentElement.clientHeight, window.innerHeight);
+                      if ((rect.top <= viewHeight) && (rect.bottom >= 0)) {
+                          aboutSection.classList.add('float-in-on-scroll');
+                          animated = true;  // To ensure the animation only occurs once
+                      }
+                  }
+              });
+          });
+          </script>
         <div class="container">
 
           <figure class="about-banner">
@@ -389,7 +313,7 @@
 
           <div class="about-content">
 
-            <p class="section-subtitle">Who We Are</p>
+            <p class="section-subtitle">Why Choose Our E-Learning Platform?</p>
 
             <h2 class="h2 section-title">We Offer The Best Service</h2>
 
@@ -402,7 +326,7 @@
                 </div>
 
                 <div>
-                  <h3 class="h3 item-title">Industry Expert Instructor</h3>
+                  <h3 class="h3 item-title">Access to the right knowledge</h3>
 
                   <p class="item-text">
                     Our university is using all the tips we discovered after working with dozens of content creators through the last 5 years.
@@ -434,10 +358,10 @@
                 </div>
 
                 <div>
-                  <h3 class="h3 item-title">Biggest Student Community</h3>
+                  <h3 class="h3 item-title">Access to the right opportunities</h3>
 
                   <p class="item-text">
-                    By joining the Xcluclub University (XCLUNIVERSITY), you will not only have access to all the content we have but also to our community of content creators motivated to thrive just like you.
+                    By joining Xcluniversity, you will not only have access to all the content we have but also to our community of content creators motivated to thrive just like you.
                   </p>
                 </div>
 
@@ -446,7 +370,7 @@
             </ul>
 
             <a href="about.html" class="btn btn-primary">
-              <span class="span">Learn More</span>
+              <span class="span">Who We Are</span>
 
               <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
             </a>
@@ -470,14 +394,30 @@
 
           <div class="cta-content">
 
-            <p class="section-subtitle">The First Complete Course on Onlyfans!</p>
+            <p class="section-subtitle">The Complete Onlyfans Masterclass:</p>
 
-            <h2 class="h2 section-title">The Onlyfans Masterclass: The Blueprint For Success!</h2>
+            <h2 class="h2 section-title">Jumpstart Your Journey With This Blueprint For Success!</h2>
 
             <p class="section-text">
-              Dive into the world of OnlyFans with our transformative e-learning course! Navigate the intricate dynamics of this platform and unlock strategies that can skyrocket your earning potential. Learn how to engage effectively with your fanbase, curate premium content, and leverage the power of marketing for maximum revenue. 
+              Embark on a captivating journey into the heart of OnlyFans with our game-changing e-learning course! 🔍 Discover hidden gems, untangle the web of platform intricacies, and harness battle-tested strategies that can catapult your earnings to new heights.
+
+              Whether you're just dipping your toes into the OnlyFans waters or you're a seasoned pro looking for that X-factor, we've got the treasure map for you. 🗺️              
               <div>
-                It doesn't matter if you're a novice or an established creator, this course can be your blueprint for success. Start your journey with us and turn your passion into a profitable enterprise on OnlyFans. Ready to take your OnlyFans game to the next level? Enroll today!
+                ✓ Magnetic fan engagement to build lasting connections.
+              </div>
+              <div>
+                ✓ Crafting the crème de la crème of content that keeps them coming back for more.
+              </div>
+              <div>
+                ✓ Masterful marketing maneuvers to amplify your revenue.
+              </div>
+              <br>
+              <h2 class="section-subtitle">Turn Your Dreams into Reality!</h2>
+              <div>
+                Why wait in the shadows when the spotlight could be yours? Convert your fiery passion into a thriving OnlyFans empire with us guiding every step. Ready to set the OnlyFans world ablaze? Ignite your journey and enroll now! 
+              </div>
+              <div>
+                And remember... Sleepless nights? Say goodbye! Our trusted techniques ensure a revenue flow as steady as the northern star. ✨ 
               </div>
             </p>
             <br>
@@ -486,11 +426,24 @@
 
               <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
             </a>
+            
+            
 
           </div>
 
+          
+
         </div>
+        
+        
+
+</div>
+        </section>
       </section>
+
+<!-- --------------
+TEST SECTION
+-------------- -->
 
 
 
@@ -498,7 +451,7 @@
         - #COURSE
       -->
 
-      <section class="section course" id="courses" aria-label="course"
+      <section class="section course" id="courses" aria-label="course "
         style="background-image: url('./assets/images/course-bg.jpg')">
         <div class="container">
 
@@ -506,7 +459,7 @@
 
           <h2 class="h2 section-title">Our Next Courses</h2>
 
-          <ul class="grid-list">
+          <ul class="grid-list" >
 
             <li>
               <div class="course-card locked">
@@ -533,13 +486,13 @@
                     <li class="card-meta-item">
                       <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
 
-                      <span class="card-meta-text">35 Lessons</span>
+                      <span class="card-meta-text">15 Lessons</span>
                     </li>
 
                     <li class="card-meta-item">
                       <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                      <time datetime="PT18H15M44S" class="card-meta-text">11h 15m 44s</time>
+                      <time datetime="PT18H15M44S" class="card-meta-text">1h 18m 34s</time>
                     </li>
 
                   </ul>
@@ -614,7 +567,7 @@
                     <li class="card-meta-item">
                       <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                      <time datetime="PT18H15M44S" class="card-meta-text">8h 15m 44s</time>
+                      <time datetime="PT18H15M44S" class="card-meta-text">2h 55m 42s</time>
                     </li>
 
                   </ul>
@@ -690,7 +643,7 @@
                     <li class="card-meta-item">
                       <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                      <time datetime="PT18H15M44S" class="card-meta-text">8h 15m 44s</time>
+                      <time datetime="PT18H15M44S" class="card-meta-text">3h 05m 49s</time>
                     </li>
 
                   </ul>
@@ -765,7 +718,7 @@
                     <li class="card-meta-item">
                       <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                      <time datetime="PT18H15M44S" class="card-meta-text">4h 15m 44s</time>
+                      <time datetime="PT18H15M44S" class="card-meta-text">4h 26m 04s</time>
                     </li>
 
                   </ul>
@@ -834,13 +787,13 @@
                     <li class="card-meta-item">
                       <ion-icon name="reader-outline" aria-hidden="true"></ion-icon>
 
-                      <span class="card-meta-text">36 Lessons</span>
+                      <span class="card-meta-text">26 Lessons</span>
                     </li>
 
                     <li class="card-meta-item">
                       <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                      <time datetime="PT18H15M44S" class="card-meta-text">18h 15m 44s</time>
+                      <time datetime="PT18H15M44S" class="card-meta-text">3h 12m 14s</time>
                     </li>
 
                   </ul>
@@ -885,7 +838,7 @@
             </li>
 
             <li>
-              <div class="course-card locked">
+              <div class="course-card locked ">
 
                 <figure class="card-banner">
                   <div class="coming-soon">Coming Soon</div>
@@ -916,7 +869,7 @@
                     <li class="card-meta-item">
                       <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
 
-                      <time datetime="PT18H15M44S" class="card-meta-text">8h 15m 44s</time>
+                      <time datetime="PT18H15M44S" class="card-meta-text">4h 45m 44s</time>
                     </li>
 
                   </ul>
@@ -962,8 +915,8 @@
 
           </ul>
 
-          <a href="#subscribe" class="btn btn-primary">
-            <span class="span">Join the Waiting List!</span>
+          <a href="#pricing" class="btn btn-primary">
+            <span class="#pricing">Join the community now!</span>
 
             <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
           </a>
@@ -971,10 +924,18 @@
         </div>
       </section>
 
+<!--       
+--------------
+TEST SECTION
+-------------- -->
 
 
 
 
+
+<!-- --------------
+PRICNG SECTION
+-------------- -->
 
 
         <!-- Start block -->
@@ -982,11 +943,11 @@
       <div class="max-w-screen-xl px-4 py-8 mx-auto lg:py-24 lg:px-6">
           <div class="max-w-screen-md mx-auto mb-8 text-center lg:mb-12">
               <h2 class="mb-4 text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white h2 section-title">Designed for creators like you</h2>
-              <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400 section-subtitle">Here at Xcluclub, we focus on sharing knowledge, innovation, and ressources that can unlock long-term value and drive economic growth to every content creators.</p>
+              <p class="mb-5 font-light text-gray-500 sm:text-xl dark:text-gray-400 section-subtitle">Here at Xcluclub, we focus on sharing knowledge, innovation, and resources that can unlock long-term value and drive economic growth to every content creators.</p>
           </div>
           <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
               <!-- Pricing Card -->
-              <div class="flex flex-col max-w-xl p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <div class="pricing-card flex flex-col max-w-xl p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                   <h3 class="mb-4 text-2xl font-semibold section-subtitle">Starter</h3>
                   <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400  ">Best option if you want access to our ressources and the discord community.</p>
                   <div class="flex items-baseline justify-center my-8">
@@ -1022,12 +983,16 @@
                       </li>
                       <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">This is bill monthly, minimum of 12 months, renewed yearly.</p>
                   </ul>
-                  <a href="#home" class="inline-block text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-xs px-2 py-1 text-center dark:text-white  dark:focus:ring-purple-900 mx-auto btn2" 
-                  >Join the waiting list</a>
+                  <a href="https://payhip.com/order?link=UQ4WF&pricing_plan=rjznbROz7N" target="_blank" class="login-box inline-block text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-xs px-2 py-1 text-center dark:text-white  dark:focus:ring-purple-900 mx-auto btn2">
+                    Join the Community Now!
+                </a>    
               </div>
               <!-- Pricing Card -->
-              <div class="flex flex-col max-w-full p-8 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
-                  <h3 class="mb-4 text-2xl font-semibold section-subtitle">Professional</h3>
+              <div class="pricing-card relative flex flex-col max-w-full p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+                <div class="absolute top-0 left-0 transform rotate-45 bg-blue-500 text-white uppercase font-bold py-1 px-4 shadow-lg mt-0"  style="background-color: red;">
+                  Best Value
+                </div>
+                <h3 class="mb-4 text-2xl font-semibold section-subtitle">Professional</h3>
                   <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">If you truly want to live off your content and ready to outwork your competition.</p>
                   <div class="flex items-baseline justify-center my-8">
                       <span class="mr-2 text-5xl font-extrabold">$49.99</span>
@@ -1038,7 +1003,7 @@
                       <li class="flex items-center space-x-3">
                           <!-- Icon -->
                           <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                          <span>Everything included in the Start Pack</span>
+                          <span>Access to all the courses</span>
                       </li>
                       <li class="flex items-center space-x-3">
                           <!-- Icon -->
@@ -1053,7 +1018,7 @@
                       <li class="flex items-center space-x-3">
                           <!-- Icon -->
                           <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                          <span>1 Profile Audit per Month</span>
+                          <span>1 Profile Audit + Report</span>
                       </li>
                       <li class="flex items-center space-x-3">
                           <!-- Icon -->
@@ -1062,14 +1027,21 @@
                       </li>
                       <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400 ">This is bill monthly, minimum of 12 months, renewed yearly.</p>
                   </ul>
-                  <a href="#home" class="inline-block text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-xs px-2 py-1 text-center dark:text-white  dark:focus:ring-purple-900 mx-auto btn2">Join the waiting list</a>
+                  <a href="https://payhip.com/order?link=UQ4WF&pricing_plan=PAWgNkaGK7" target="_blank" class="login-box inline-block text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-xs px-2 py-1 text-center dark:text-white  dark:focus:ring-purple-900 mx-auto btn2">
+                    Join the Community Now!
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </a>       
+                <br>    
               </div>
               <!-- Pricing Card -->
-              <div class="flex flex-col max-w-xl p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
+              <div class="pricing-card flex flex-col max-w-xl p-6 mx-auto text-center text-gray-900 bg-white border border-gray-100 rounded-lg shadow dark:border-gray-600 xl:p-8 dark:bg-gray-800 dark:text-white">
                   <h3 class="mb-4 text-2xl font-semibold section-subtitle">Xclusivity</h3>
                   <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">This plan is for content creators looking to pay yearly instead of monthly, discounted price for the loyalty.</p>
                   <div class="flex items-baseline justify-center my-8">
-                      <span class="mr-2 text-5xl font-extrabold">$499.99</span>
+                      <span class="mr-2 text-5xl font-extrabold">$399.99</span>
                       <span class="text-gray-500 dark:text-gray-400">/Year</span>
                   </div>
                   <!-- List -->
@@ -1077,36 +1049,41 @@
                       <li class="flex items-center space-x-3">
                           <!-- Icon -->
                           <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                          <span>Individual coaching sessions</span>
+                          <span>Access to all the courses</span>
                       </li>
                       <li class="flex items-center space-x-3">
                           <!-- Icon -->
                           <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                          <span>24h/7 support </span>
+                          <span>Access to the discord community</span>
                       </li>
                       <li class="flex items-center space-x-3">
                           <!-- Icon -->
                           <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                          <span>Access to employees</span>
+                          <span>Access to all our ressources</span>
                       </li>
                       <li class="flex items-center space-x-3">
                           <!-- Icon -->
                           <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                          <span>Premium support: 36 months</span>
+                          <span>Access to all the updates</span>
                       </li>
                       <li class="flex items-center space-x-3">
                           <!-- Icon -->
                           <svg class="flex-shrink-0 w-5 h-5 text-green-500 dark:text-green-400" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
-                          <span>Free updates: 36 months</span>
+                          <span>VIP access to our app once it is out</span>
                       </li>
                       <p class="font-light text-gray-500 sm:text-lg dark:text-gray-400">This is bill yearly, minimum of 12 months, renewed yearly.</p>
                   </ul>
-                  <a href="#home" class="inline-block text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-xs px-2 py-1 text-center dark:text-white  dark:focus:ring-purple-900 mx-auto btn2">Join the waiting list</a>
-              </div>
+                    <a href="https://payhip.com/order?link=UQ4WF&pricing_plan=0XB0Y2pGLk" target="_blank" class="login-box inline-block text-white bg-purple-600 hover:bg-purple-700 focus:ring-4 focus:ring-purple-200 font-medium rounded-lg text-xs px-2 py-1 text-center dark:text-white  dark:focus:ring-purple-900 mx-auto btn2">
+                      Join the Community Now!
+                  </a>              
+                </div>
           </div>
       </div>
     </section>
   <!-- End block -->
+
+
+
 
     <!-- Start block -->
     
@@ -1123,7 +1100,7 @@
                 </h3>
                 <div id="accordion-flush-body-1" class="hidden" aria-labelledby="accordion-flush-heading-1">
                   <div class="py-5 border-b border-gray-200 dark:border-gray-700">
-                    <p class="mb-2 text-gray-500 dark:text-gray-400">XCLUNIVERSITY is not out yet, we are currently in the process of creating the various courses that will be available to everyone.</p> If this is interesting you, fill out the form so that we can be aware of that and notify you as soon as we get live.</p>
+                    <p class="mb-2 text-gray-500 dark:text-gray-400">By simply selecting which package you are interested in and clicking on "Improve Now!" you will be redirected to a checkout page. Once the subscription paid, you will gain access to all the courses available and a direct link to the discord server.</p>
                   </div>
                 </div>
                   <h3 id="accordion-flush-heading-2">
@@ -1176,7 +1153,6 @@
 
 
 
-
     <!-- ONLY GET THE ressources -->
 
     <section class="section cta" aria-label="workshop" style="background-image: url('./assets/images/cta-bg.png')">
@@ -1184,7 +1160,7 @@
         
 
         <figure class="cta-banner1">
-          <img src="./assets/images/computer-cards.png" loading="eager" alt="cta banner"
+          <img src="./assets/images/zenv2.png" class="floating" loading="eager" alt="cta banner"
             class="img-cover">
         </figure>
 
@@ -1441,7 +1417,7 @@
 
       <div class="footer-bottom">
         <p class="copyright">
-          Copyright 2023 Xcluclub. All Rights Reserved by <a href="#" class="copyright-link">ELR Agency</a>
+          Copyright 2023 Xcluclub. All Rights Reserved by <a href="https://elragency.netlify.app" class="copyright-link" target="_blank">ELR Agency</a>
         </p>
       </div>
 

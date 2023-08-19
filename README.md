@@ -9,6 +9,8 @@
   <br />
   <br />
 
+  TEXT COLOR: 	#525ee0
+
   <h2 align="center">EduHome - Education website</h2>
 
   EduHome is a fully responsive education website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
