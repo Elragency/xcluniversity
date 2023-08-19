@@ -2122,3 +2122,11 @@ body {
 .feature img {
   margin-bottom: 5px; /* Add some space between the icon and text */
 }
+
+.parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* the height might be set to 100vh or other values depending on your need */
+  height: 100vh; 
+}
