@@ -1970,6 +1970,41 @@ body {
   animation: floatInFromRight 1s forwards;
 }
 
+/* FLOAT IN FROM THE BOTTOM */
+@keyframes floatAnimationb {
+  0% { transform: translateY(-10px); }
+  50% { transform: translateY(10px); }
+  100% { transform: translateY(-10px); }
+}
+
+.floatingb {
+  animation: floatAnimation 2.5s infinite;
+}
+
+@keyframes floatInAnimationb {
+from { transform: translateY(50px); opacity: 0; }
+to { transform: translateY(0); opacity: 1; }
+}
+
+.float-in-on-loadb {
+opacity: 0; 
+animation: floatInAnimation 1.5s forwards;
+}
+
+@keyframes floatInFromBottom {
+0% {
+    opacity: 0;
+    transform: translateY(50%);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0);
+}
+}
+
+.float-in-on-scrollb {
+animation: floatInFromBottom 1s forwards;
+}
 
 
 
@@ -2129,4 +2164,10 @@ body {
   align-items: center;
   /* the height might be set to 100vh or other values depending on your need */
   height: 100vh; 
+}
+
+
+/* FLOATIN ANIMATION FOR CTA */
+.float-in-on-scroll1 {
+  animation: floatInFromRight 1s forwards;
 }
